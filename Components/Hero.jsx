@@ -40,12 +40,19 @@ const Hero = () => {
             className='icon'
             onClick={() =>
               window.open(
-                'https://www.linkedin.com/in/johan-fernandez-contreras/',
+                'https://www.linkedin.com/in/johanfernandez1995',
                 '_blank'
               )
             }
           />
-          <img src={github} alt='github' className='icon' />
+          <img
+            src={github}
+            alt='github'
+            className='icon'
+            onClick={() =>
+              window.open('https://github.com/JorcelMahan', '_blank')
+            }
+          />
         </div>
       </div>
     </section>
